@@ -13,7 +13,7 @@ $(function() {
        scrollTop: $( $(this).attr('href') ).offset().top},1800);
   });
 
-$.getJSON("http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=1",function (data) {
+$.getJSON("http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions",function (data) {
   $.each(data,function(){
       $.each(this,function(key,value){
 
