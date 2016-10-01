@@ -10,7 +10,6 @@ var arr = [];
        type:'GET',
        url:'http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=1',
        dataType:'json',
-       cache:'true',
        success:function(data) {
          $(data.websites).each(function(index,value) {
 
