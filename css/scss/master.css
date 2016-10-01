@@ -1,27 +1,36 @@
-.images {
+.navbar{
+
+
+
+background: #ff4b1f; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff4b1f , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff4b1f , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height:100vh;
+
+
+}
+
+.co{
+  color:white;
+}
+
+#down{
   background: white;
-  margin: 0 auto;
-  padding: 20px; }
-
-.full {
-  padding: 20px;
-  width: 100%; }
-
-.jumbotron {
-  background: #CF000F; }
-
-.navbar {
-  background: #CF000F; }
-
-.navbar-header a {
-  color: white; }
-.navbar-header a:hover {
-  color: black; }
+}
 
 .shadow {
   box-shadow: 5px 5px 6px grey; }
 
-.footer {
-  color: white; }
+.cards{
+  background: white;
+  padding: 2%;
+  border-radius: 1%;
+}
 
-/*# sourceMappingURL=master.css.map */
+footer{
+  background: #ff4b1f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ff4b1f , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ff4b1f , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 3%;
+
+}
