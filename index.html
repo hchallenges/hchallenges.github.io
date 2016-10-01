@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CTZ Code Hub</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen" title="no title">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/scss/master.css" media="screen" title="no title">
   </head>
   <body>
-   <div class='alert alert-danger'>
+   <!-- <div class='alert alert-danger'>
      <a href="#" class="close" data-dismiss='alert' aria-label='close'>&times;</a>
      <strong>Due to some problem with api </strong> the page cannot load scripts safely.So kindly load unsafe script to view content.In chrome click on shield icon in address bar and load unsafe scripts.
-   </div>
+   </div> -->
 
   <header>
     <nav class="navbar navbar-transparent ">
@@ -19,22 +21,80 @@
           <br>
           <a href="index.html" class="navbar-brand "><h1 class='text-danger'>&nbsp;<i class="glyphicon glyphicon-chevron-left"></i>Code<i class="glyphicon glyphicon-chevron-right"></i> Cafe<h1></a>
         </div>
-        <br>
-        <br>
       </div>
+        <h2 class="text-center co">Code hub with stats!</h2>
+        <br>
+
+<!-- Filters -->
+
+        <div class="container  text-danger">
+          <div class="row">
+            <div class='col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-offset-1 cards'><h3><i class="glyphicon glyphicon-th-list"></i> Filter by <strong>status</strong></h3>
+
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Accepted</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Skipped</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Memory/Time limit exceeded</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Runtime/Compilation error</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Wrong answer</label>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 ">
+
+            </div>
+<!-- Statical analysis -->
+
+              <div class='col-lg-6 col-md-6 col-sm-6 col-xs-10 col-xs-offset-1 cards'><h3><strong> <i class="glyphicon glyphicon-signal"></i> Statical Analysis</strong></h3>
+                 <div class="top-2">
+                   <strong>Top 2 Submissions attempted :</strong>
+                   <br>
+                   <br>
+                 </div>
+                  <div class="nosub">
+                    <strong>Number of submissions per level :</strong>
+                    <br>
+                    <p>Easy:</p>
+                    <p>Medium:</p>
+                    <p>Hard:</p>
+                  </div>
+                  <div class="total">
+                    <strong>Total Submissions :</strong>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <h3 class="text-center"><a href="#down"><i class="glyphicon glyphicon-chevron-down text-center" style="color:white"></i></a></h3>
+
     </nav>
   </header>
 
   <section>
-    <h1 class="text-center">Code hub with stats!</h1>
 
-    <div class="jumbotron container" >
+
+    <div class="jumbotron container " id='down'>
     <div class="row text">
 
     </div>
     </div>
   </section>
 
+  <footer>
+    <div class="footer">
+       <h3 class="text-center">All rights reserved.<i class="glyphicon glyphicon-copyright-mark"></i> 2016
+         </h3>
+    </div>
+  </footer>
 
     <script type="text/javascript" src="bootstrap/js/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
