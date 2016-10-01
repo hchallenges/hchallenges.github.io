@@ -6,7 +6,7 @@ $(function() {
 
      $.ajax({
        type:'GET',
-       url:'http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions&page=1',
+       url:'http://hackerearth.0x10.info/api/ctz_coders?type=json&query=list_submissions',
        dataType:'json',
        success:function(data) {
          $(data.websites).each(function(index,value) {
